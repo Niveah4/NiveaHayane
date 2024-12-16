@@ -1,210 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nivea Hayane - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  
+  <header class="header">
+      <a href="#home" class="logo">Nivea <span>Hayane</span></a>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <!--abrindo o inicio do meu cabeçalho-->
+      <i class='bx bx-menu' id="menu-icon"></i>
 
-      <nav id="navbar">
-        <!-- declarando o inicio da barra de navegação -->
 
-        <!-- link que ficará na classe barra de "marca" dentro da navbar -->
-        <a class="nav-brand" href="#">Nivea Hayanne</a>
-        <!--Inicialização de uma lista desordenada (ul)-->
-        <ul class="nav-list">
-          <!-- a lista desor. terá uma classe de lista de navegação -->
-
-          <li class="nav-item">
-            <!--inicializando a 1ª lista de navegaçao, que terá uma classe de itens da lista de navegação -->
-            <a href="#">Works</a>
-            <!--link e o texto que aparecerá-->
-          </li>
-          <li class="nav-item">
-            <!--inicializando o 2ª item da lista-->
-            <a href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <!--inicializando o 3º item da lista"-->
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-        <!--fechando a lista desordenada-->
-
-        <div class="menu-hamburguer">
-          <svg
-            width="75px"
-            height="75px"
-            viewBox="0 0 72 72"
-            id="emoji"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#000000"
-          >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <g id="color"></g>
-              <g id="hair"></g>
-              <g id="skin"></g>
-              <g id="skin-shadow"></g>
-              <g id="line">
-                <line
-                  x1="16"
-                  x2="56"
-                  y1="26"
-                  y2="26"
-                  fill="none"
-                  stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
-                ></line>
-                <line
-                  x1="16"
-                  x2="56"
-                  y1="36"
-                  y2="36"
-                  fill="none"
-                  stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
-                ></line>
-                <line
-                  x1="16"
-                  x2="56"
-                  y1="46"
-                  y2="46"
-                  fill="none"
-                  stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
-                ></line>
-              </g>
-            </g>
-          </svg>
-        </div>
+      <nav class="navbar">
+        <a href="#home" class="active">Início</a>
+        <a href="#Sobre mim">Sobre mim</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contato</a>
       </nav>
-      <!--fechando a barra de navegação-->
     </header>
-    <!--fechando o meu cabeçalho-->
+  </header>
 
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3 class="text-animation">Olá</h3>
+      <h1>Meu nome é <span>Nivea</span></h1>
+      <h3 class="text-animation">
+        Eu sou uma <span></span>
+      </h3>
+      <p>Seja bem vindo(a) ao meu currículo</p>
 
-<!-- inicio do banner, conteudo prinicipal -->
+      <a href="#" class="btn">Download CV</a>
 
-    <main>
-      <!--dentro do conteudo principal-->
-      <section id="banner">
-        <div class="banner-content">
-          <!--lado esquerdo iniciado -->
+    </div>
 
-          <h1 class="banner-content-title">
-            Oi, meu nome é Nivea,<br />
-            Aprendiz de HTML
-          </h1>
+    <div class="home-img">
+      <img src="assets/Foto1.png" alt="Foto de Perfil">
+    </div>
 
-          <p class="banner-content-subtitle">
-            Gosto de aprender e criar coisas novas. Além de que me sinto
-            extremamente feliz ao ver outras pessoas felizes com meu trabalho.
-            Bem-vindo(a)!
-          </p>
+  </section>
 
-          <button class="banner-content-btn">Baixar Resumo</button>
+  <section class="about" id="about">
+   
+    </div>
+    <div class="about-content">
+        <h2 class="heading">Sobre<span> mim</span></h2>
+        <h3 class="text-animation">
+          <span></span>
+        </h3>
+        <p>Acredito na busca constante por conhecimento e melhoria contínua como pilares para o crescimento profissional. Sou apaixonada por tecnologia e desenvolvimento, áreas onde posso aprender, criar e compartilhar conhecimento. Criativa, resiliente, proativa e com excelente comunicação interpessoal, vejo cada dia como uma oportunidade de evoluir. Acredito que a tecnologia, quando bem aplicada, pode transformar o mundo para melhor, e me realizo ao contribuir para esse propósito.</p>
+      </div>
+
+        <div class=" social-icons"> 
+        <a href= "https://www.linkedin.com/in/nivea-hayane"><i class='bx bxl-linkedin' ></i></a>
+      </div>
+
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="heading">Experiências</h2>
+
+    <div class="service-container">
+      <div class="services-box">
+        <i class='bx bx-code-block' ></i>
+        <h2>Suporte Técnico - Estágio</h2>
+      <h3>Jn Moura Soluções Tecnológicas</h3>
+      <p>Atuo diretamente no atendimento a usuários, auxiliando na resolução de problemas técnicos e na configuração de sistemas e equipamentos. Realizo a análise e o diagnóstico de incidentes, fornecendo orientações claras para garantir o pleno funcionamento das soluções tecnológicas. Além disso, colaboro com a equipe para identificar melhorias nos processos de suporte, garantindo a satisfação dos usuários e a eficiência das operações.</p>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-laptop'></i>
+        <h2>Secretária de Advocacia</h2>
+        <h3>Escritório de Advocacia Dr Valdônio Costa</h3>
+        <p>Desenvolvi competências na manipulação de informações sigilosas, suporte técnico jurídico e gestão financeira. Esta vivência fortaleceu habilidades administrativas e proporcionou uma visão única das necessidades tecnológicas no contexto jurídico, integração de sistemas e segurança de dados, o que influenciará em desafios futuros na minha área profissional.</p>
+      </div>
+  
+ </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="heading">Formação Acadêmica</h2>
+       <!-- card individuais 01-->
+   <div class="service-container">
+
+    <div class="services-box">
+      <i class='bx bx-code-block' ></i>
+
+      <h3>SISTEMAS DE INFORMAÇÃO</h3>
+      <h4><span class="local"> Universidade Federal do Ceará</span></h4>
+      <p>Ano de conclusão (ou previsão)</p>
+      <span class="data">2027</span>
+    </div>
+
+  </div>
+
+</section>
+
+  <section class="projects" id="portfolio">
+    <h2 class="heading">Portfólio</h2>
+    
+    <div class="projects-container">
+      <div class="projects-box">
+        <img src="assets/11.png" alt="">
+        <div class="projects-info">
+          <h4>Tela de Agendamento</h4>
+          <p>Lorem ipsum, lorem ipsum</p>
+          <a href="https://github.com/Niveah4/TelaAgendamento-Html-Css-JS-.git"><i class="bx bx-link"></i></a>
         </div>
-        <!--lado esquerdo finalizado -->
-        <img
-          src="https://officecont.com/wp-content/uploads/2022/07/227854-vector-desenvolvedor-feminino-gratis-vetor-1536x1536.jpg"
-          alt="Foto ilustrativa de uma garota tech"
-          class="banner-img"
-        />
-      </section>
+      </div>
+    </div>
+  </section>
 
+  <section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+    <div class="skill-bars">
 
-    <!-- inicio do quadro de posts -->
-
-
-      <!-- seção inicial do quadro geral de posts e textos de título -->
-      <section id="post">
-        <div class="posts-content">  <!-- textos do cabeçalho posts que precisam estar lado a lado -->
-         
-          <div class="posts-content-header">
-            <h2 class="section-title">Posts Recentes</h2>
-
-            <a class="ver-link" href="#">Visualizar todos</a>
-          </div>
-
-          <!-- inicio agrupamento dos dois cards de posts -->
-          <div class="posts-cards">
-            <!-- cards individuais 01-->
-            <div class="post-card">
-              <h3>Meu primeiro projeto</h3>
-              <span>24 Mar 2024</span>
-              <p>
-                A prática constante e a busca por recursos online são essenciais
-                para aprimorar as habilidades em desenvolvimento web.
-              </p>
-            </div>
-
-            <!-- card individual post 02 -->
-            <div class="post-card">
-              <h3>Faça sua web do zero</h3>
-              <span>24 Mar 2024</span>
-              <p>
-                A inteligência artificial está transformando diversos setores,
-                desde a saúde até a indústria automotiva.
-              </p>
-            </div>
-
-            <!-- final do agrupamento dos dois cards de posts -->
-          </div>
+      <div class="bar">
+        <div class="info">
+          <span>HTML</span>
         </div>
-        <!-- seção final do quadro geral de posts e textos de título -->
-      </section>
-    </main>
-
-    <footer>
-      <section id="redes-sociais">
-        <div class="redes-content">
-          <img
-            src="https://th.bing.com/th/id/OIP.72S49bENY6EMqQr0n7eg_AHaHZ?rs=1&pid=ImgDetMain"
-            alt="logo do instagram"
-            class="logo-img"
-          />
-          <img
-            src="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png"
-            alt="logo do linkedin"
-            class="logo-img"
-          />
-
-          <a href="#">
-            <img
-              src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
-              alt="logo do github"
-              class="logo-img"
-            />
-          </a>
+        <div class="progress-line html">
+          <span></span>
         </div>
-      </section>
-    </footer>
-  </body>
+      </div>
+
+      <div class="bar">
+        <div class="info">
+          <span>CSS</span>
+        </div>
+        <div class="progress-line css">
+          <span></span>
+        </div>
+      </div>
+
+      <div class="bar">
+        <div class="info">
+          <span>Java</span>
+        </div>
+        <div class="progress-line java">
+          <span></span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contato <span></span>
+    </h2>
+
+    <div class="infos">
+      <li>
+        <ul>
+      <p>Email:</p><a href="mailto:niveahayane@gmail.com">niveahayane@gmail.com</a>
+      <p>Linkedin:</p> <a href="https://www.linkedin.com/in/nivea-hayane">Clique aqui</a>
+      <p>WhatsApp: <a href="https://wa.me/5588999729491">Clique aqui</a>
+      </ul>
+      </li>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/nivea-hayane"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.instagram.com/nivea_h4/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://github.com/Niveah4"><i class='bx bxl-github' ></i></a>
+      </div>
+  
+      <ul class="list">
+
+    </ul>
+    <p class="copyright">
+      © Nivea Hayane | Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <script src="script.js">
+  </script>
+
+</body>
 </html>

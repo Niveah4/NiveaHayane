@@ -485,17 +485,6 @@ span{
   cursor: pointer;
 }
 
-.bar .progress-line.javascript span{
-  width: 80%;
-  background-color: gold;
-  box-shadow: 0 0 25px gold;
-  transition: 0.3s ease;
-}
-
-.bar .progress-line.javascript span:hover{
-  box-shadow: 0 0 25px gold,
-              0 0 50px gold;
-}
 
 .bar .progress-line.java span{
   width: 40%;
@@ -509,29 +498,6 @@ span{
               0 0 50px rgb(58, 58, 255);
 }
 
-.bar .progress-line.react span{
-  width: 50%;
-  background-color: greenyellow;
-  box-shadow: 0 0 25px greenyellow;
-  transition: 0.3s ease;
-}
-
-.bar .progress-line.react span:hover{
-  box-shadow: 0 0 25px greenyellow,
-              0 0 50px greenyellow;
-}
-
-.bar .progress-line.python span{
-  width: 70%;
-  background-color: orangered;
-  box-shadow: 0 0 25px orangered;
-  transition: 0.3s ease;
-}
-
-.bar .progress-line.python span:hover{
-  box-shadow: 0 0 25px orangered,
-              0 0 50px orangered;
-}
 
 .bar .progress-line.html span{
   width: 100%;
@@ -559,42 +525,59 @@ span{
 
 .contact {
   background-color: var(--second-bg-color);
+  padding: 90px;
+  text-align:initial;
 }
 
 .contact h2{
   margin-bottom: 3rem;
 }
 
-.contact h2 {
-  margin-bottom: 3rem;
+.opc-contact{
+  background-color: #f3c9e9; 
+  background-color: var(--second-bg-color);
+  display: flex; 
+  justify-content: space-around; 
+  gap: 40px;
+  margin-top: 40px; 
 }
 
-.contact p{
-  color: antiquewhite;
-  text-justify: auto;
+.opc-contact div{
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 0px rgba(107, 106, 106, 0.1);
 }
+  .opc-contact #Email #Linkedin #Telefone{
 
-.contact form .input-box{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  background: var(--second-bg-color);
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%; /* Garante que cada caixa ocupe 100% da largura disponível */
+  max-width: 300px; /* Largura máxima */
+  box-shadow: 0 4px 8px rgba(141, 139, 139, 0.1); /* Sombra suave */
+  }
 
-.contact form .input-box input,
-.contact form textarea{
-width: 100%;
-padding: 1.5rem;
-font-size: 1.6rem;
-color: var(--text-color);
-background: var(--bg-color);
-border-radius: 0.8rem;
-margin: 1rem 0;
-resize: none;
-}
+  .opc-contact i{
+    color:rgb(202, 199, 199);
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 
-.contact form .btn{
-  margin-top: 2rem;
-}
+  .opc-contact span{
+    display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+
+  .opc-contact a{
+    color: var(--text-color);
+    font: Arial;
+    font-size:14px;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
 .footer{
   position: relative;

@@ -1,0 +1,97 @@
+
+
+<main>
+      <!--dentro do conteudo principal-->
+      <section id="banner">
+        <div class="banner-content">
+          <!--lado esquerdo iniciado -->
+
+          <h1 class="banner-content-title">
+            Oi, meu nome é Nivea,<br />
+            Aprendiz de HTML
+          </h1>
+
+          <p class="banner-content-subtitle">
+            Gosto de aprender e criar coisas novas. Além de que me sinto
+            extremamente feliz ao ver outras pessoas felizes com meu trabalho.
+            Bem-vindo(a)!
+          </p>
+
+          <button class="banner-content-btn">Baixar Resumo</button>
+        </div>
+        <!--lado esquerdo finalizado -->
+        <img
+          src="https://officecont.com/wp-content/uploads/2022/07/227854-vector-desenvolvedor-feminino-gratis-vetor-1536x1536.jpg"
+          alt="Foto ilustrativa de uma garota tech"
+          class="banner-img"
+        />
+      </section>
+
+      <!-- inicio do quadro de posts -->
+
+      <!-- seção inicial do quadro geral de posts e textos de título -->
+      <section id="post">
+        <div class="posts-content">
+          <!-- textos do cabeçalho posts que precisam estar lado a lado -->
+
+          <div class="posts-content-header">
+            <h2 class="section-title">Posts Recentes</h2>
+
+            <a class="ver-link" href="#">Visualizar todos</a>
+          </div>
+
+          <!-- inicio agrupamento dos dois cards de posts -->
+          <div class="posts-cards">
+            <!-- cards individuais 01-->
+            <div class="post-card">
+              <h3>Meu primeiro projeto</h3>
+              <span>24 Mar 2024</span>
+              <p>
+                A prática constante e a busca por recursos online são essenciais
+                para aprimorar as habilidades em desenvolvimento web.
+              </p>
+            </div>
+
+            <!-- card individual post 02 -->
+            <div class="post-card">
+              <h3>Faça sua web do zero</h3>
+              <span>24 Mar 2024</span>
+              <p>
+                A inteligência artificial está transformando diversos setores,
+                desde a saúde até a indústria automotiva.
+              </p>
+            </div>
+
+            <!-- final do agrupamento dos dois cards de posts -->
+          </div>
+        </div>
+        <!-- seção final do quadro geral de posts e textos de título -->
+      </section>
+    </main>
+
+    <footer>
+      <section id="redes-sociais">
+        <div class="redes-content">
+          <img
+            src="https://th.bing.com/th/id/OIP.72S49bENY6EMqQr0n7eg_AHaHZ?rs=1&pid=ImgDetMain"
+            alt="logo do instagram"
+            class="logo-img"
+          />
+          <img
+            src="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png"
+            alt="logo do linkedin"
+            class="logo-img"
+          />
+
+          <a href="#">
+            <img
+              src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
+              alt="logo do github"
+              class="logo-img"
+            />
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

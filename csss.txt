@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  background-color: #840f0f;
+}
+
+header {
+  background-color: bisque;
+  height: 5rem;
+}
+
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /*apagar depois */
+
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 5rem;
+}
+
+header #navbar .nav-brand {
+  /* usar para tirar o underline, a barra de link em baixo
+    da palavra; */
+  text-decoration: none;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+header #navbar .nav-list {
+  /* remover os pontinhos da lista */
+  list-style: none;
+
+  /* fazer a lista ficar lado a lado - display flex */
+  display: flex;
+
+  /* alinhar vertical na mesma linha, no centro*/
+  align-items: center;
+
+  /* tamanho entre as palavras */
+  gap: 1.93rem;
+}
+header #navbar .nav-list .nav-item a {
+  /*modificar o texto dos links dos itens que 
+      estão na lista*/
+  text-decoration: none;
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+header #navbar .nav-list .nav-item a:hover {
+  /* hover: para adicionar um "efeito" quando passar
+     o mouse por cima da palavra que esta o link na lista; */
+  color: coral;
+  transition: color 0.3s;
+}
+
+header #navbar .menu-hamburguer {
+  display: none;
+}
+@media (max-width: 660px) {
+  header #navbar .menu-hamburguer {
+    display: flex;
+  }
+
+  header #navbar .nav-item {
+    display: none;
+  }
+}
+
+/* ----COMEÇAR A ESTILIZAR SECTION BANNER */
+
+main {
+  margin-top: 6rem;
+}
+main #banner {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+main #banner .banner-content .banner-content-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.75rem; /*altura da linha */
+  margin-bottom: 2.5rem;
+}
+
+main #banner .banner-content .banner-content-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 500px;
+  margin-bottom: 38px;
+  text-align: justify;
+}
+main #banner .banner-content .banner-content-btn {
+  background-color: coral;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2px;
+
+  padding: 8px 24px;
+  border: none;
+}
+main #banner .banner-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+}
+@media (max-width: 920px) {
+  main #banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+/* SECAO DE POSTS */
+
+section#post {
+  margin-top: 71px;
+  background-color: rgb(238, 233, 240);
+}
+#post .posts-content {
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+#post .posts-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+#post .posts-content-header .section-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+#post .posts-content-header .ver-link {
+  text-decoration: none;
+  color: #815e85;
+}
+
+#post .posts-content .posts-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+#post .posts-content .post-card {
+  background-color: #f7f7f7;
+  padding: 24px;
+  margin-bottom: 71px;
+  /* max-width: 300px; */
+}
+#post .posts-content .post-card h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+#post .posts-content .post-card span {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  display: block;
+}
+#post .posts-content .post-card p {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 740px) {
+  #post .posts-content .posts-cards {
+    flex-direction: column;
+  }
+}
+
+section#redes-sociais {
+  /* margin-top: 20px; */
+  max-width: 1200px;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+footer #redes-sociais .redes-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer #redes-sociais .logo-img {
+  border-radius: 80%;
+  width: 100%;
+  max-width: 30px;
+}

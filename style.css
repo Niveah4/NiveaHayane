@@ -362,10 +362,14 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   flex-direction: column;
   flex-wrap: wrap;
   padding: 2rem;
   width: 100%;
+=======
+  flex-wrap: wrap;
+>>>>>>> 61c9d5d46cfbb01db5754c87f9e3fb862c39cf1d
 }
 
 .projects h2 {
@@ -374,12 +378,18 @@ span {
 
 .projects-container {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(2, 1fr);
   align-items: stretch;
   gap: 1rem;
   max-width: 800px; 
   width: 100%;
   margin: 0 auto;
+=======
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+>>>>>>> 61c9d5d46cfbb01db5754c87f9e3fb862c39cf1d
 }
 
 .projects-container .projects-box {
@@ -388,19 +398,25 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
   max-width: 300px;
   min-height: 200px;
   margin: 0 auto; 
+=======
+>>>>>>> 61c9d5d46cfbb01db5754c87f9e3fb862c39cf1d
 }
 
 .projects-box img {
   width: 100%;
+<<<<<<< HEAD
   height: 100%;
   object-fit: cover;
   filter: blur(3px); 
+=======
+>>>>>>> 61c9d5d46cfbb01db5754c87f9e3fb862c39cf1d
   transition: 0.5s ease;
 }
 
